@@ -31,7 +31,7 @@ function HomePage() {
           24/7 NCR Recovery Live
         </div>
         <a
-          href="tel:+919876543210"
+          href=""
           className="bg-primary-container text-on-primary-container w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform pointer-events-auto"
         >
           <Icon name="emergency_home" className="text-3xl" filled />
@@ -121,18 +121,88 @@ function HomePage() {
         </section>
 
         {/* Trusted By */}
-        <section className="py-12 bg-surface-container border-b border-outline-variant/30">
-          <div className="max-w-7xl mx-auto px-6">
-            <p className="text-center text-[10px] font-black text-secondary tracking-[0.3em] uppercase mb-8">
-              Trusted by Industry Titans in NCR
-            </p>
-            <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-50 grayscale hover:grayscale-0 transition-all">
-              {["LARSEN & TOUBRO", "DLF INFRA", "EMAAR INDIA", "TATA PROJECTS", "IREO"].map((b) => (
-                <span key={b} className="text-2xl font-black text-on-surface tracking-tighter">{b}</span>
-              ))}
-            </div>
-          </div>
-        </section>
+<section className="py-12 bg-surface-container border-b border-outline-variant/30 overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6 mb-8">
+    <p className="text-center text-[10px] font-black text-secondary tracking-[0.3em] uppercase mb-4">
+      Trusted Across NCR
+    </p>
+
+    <h2 className="text-center text-3xl md:text-5xl font-black tracking-tight uppercase text-on-surface">
+      Major Projects
+    </h2>
+  </div>
+
+  <div className="relative w-full overflow-hidden">
+    <div className="flex gap-5 animate-marquee min-w-max px-6">
+
+      {[
+        "ALWANIYA PROJECT",
+        "DLF DAHLIAS",
+        "DLF DOWNTOWN",
+        "DLF THE ARBOUR",
+        "ACP COMPANY",
+        "ULTRATECH",
+        "GPTP COMPANY",
+        "SB CONSTRUCTION",
+        "SB CONTINENTAL",
+        "RAMA CIVIL",
+        "NCC",
+        "MR PROJECTS",
+        "WORLDMARK",
+        "WORLDMARK AEROCITY",
+        "POWER GRID DELHI",
+        "BPTP SECTOR 102",
+        "M3M",
+        "MGS",
+        "L&T",
+        "J KUMAR INFRA",
+      ].map((project, i) => (
+        <div
+          key={i}
+          className="px-8 py-5 rounded-xl bg-surface-container-highest min-w-fit"
+        >
+          <span className="text-lg md:text-xl font-black text-secondary tracking-tight whitespace-nowrap">
+            {project}
+          </span>
+        </div>
+      ))}
+
+      {/* Duplicate for seamless infinite loop */}
+
+      {[
+        "ALWANIYA PROJECT",
+        "DLF DAHLIAS",
+        "DLF DOWNTOWN",
+        "DLF THE ARBOUR",
+        "ACP COMPANY",
+        "ULTRATECH",
+        "GPTP COMPANY",
+        "SB CONSTRUCTION",
+        "SB CONTINENTAL",
+        "RAMA CIVIL",
+        "NCC",
+        "MR PROJECTS",
+        "WORLDMARK",
+        "WORLDMARK AEROCITY",
+        "POWER GRID DELHI",
+        "BPTP SECTOR 102",
+        "M3M",
+        "MGS",
+        "L&T",
+        "J KUMAR INFRA",
+      ].map((project, i) => (
+        <div
+          key={`duplicate-${i}`}
+          className="px-8 py-5 rounded-xl bg-surface-container-highest min-w-fit"
+        >
+          <span className="text-lg md:text-xl font-black text-secondary tracking-tight whitespace-nowrap">
+            {project}
+          </span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
         {/* Specialized Solutions */}
         <section className="py-24 bg-surface">
@@ -209,7 +279,7 @@ function HomePage() {
                     <p className="text-white font-black text-lg">Need Immediate Assistance?</p>
                     <p className="text-stone-400 text-xs">Our Gurugram center is active now.</p>
                   </div>
-                  <a href="tel:+919876543210" className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                  <a href="" className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                     <Icon name="call" className="text-white" />
                   </a>
                 </div>
@@ -234,7 +304,7 @@ function HomePage() {
                 </p>
               </div>
               <a
-                href="tel:+919876543210"
+                href=""
                 className="bg-on-primary-container text-primary-container px-8 py-4 rounded-xl font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 shadow-xl hover:scale-105 transition-transform relative z-10"
               >
                 <Icon name="phone_in_talk" filled />

@@ -162,7 +162,7 @@ function AboutPage() {
         </section>
 
         {/* Leadership */}
-        <section className="py-32 px-8 md:px-20 bg-surface">
+        {/* <section className="py-32 px-8 md:px-20 bg-surface">
           <div className="max-w-7xl mx-auto">
             <div className="mb-20 text-center">
               <h2 className="text-5xl font-bold tracking-tighter uppercase mb-4">
@@ -187,7 +187,7 @@ function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <SiteFooter />

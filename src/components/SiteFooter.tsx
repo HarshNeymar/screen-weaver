@@ -42,11 +42,11 @@ export function SiteFooter() {
           <ul className="space-y-4 text-xs font-bold tracking-wider text-stone-500">
             <li className="flex items-start gap-3">
               <Icon name="location_on" className="text-primary-fixed-dim text-lg" />
-              <span>Plot 45, Sector 5, IMT Manesar,<br />Gurugram, Haryana 122051</span>
+              <span>Sector 56<br />Gurugram, Haryana 122051</span>
             </li>
             <li className="flex items-center gap-3">
               <Icon name="call" className="text-primary-fixed-dim text-lg" />
-              <span>+91 98765 43210</span>
+              <span>+91 97174 59360</span>
             </li>
             <li className="flex items-center gap-3">
               <Icon name="mail" className="text-primary-fixed-dim text-lg" />

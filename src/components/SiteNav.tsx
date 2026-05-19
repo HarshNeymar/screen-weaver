@@ -31,7 +31,7 @@ export function SiteNav() {
         <div className="flex items-center gap-6">
           <div className="hidden sm:flex flex-col items-end leading-none">
             <span className="text-[10px] font-black uppercase text-stone-400 tracking-tighter">Gurugram 24/7 Hotline</span>
-            <span className="text-sm font-bold text-on-surface">+91 98765 43210</span>
+            <span className="text-sm font-bold text-on-surface">+91 97174 59360</span>
           </div>
           <Link
             to="/contact"

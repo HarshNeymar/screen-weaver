@@ -165,7 +165,7 @@ function ServicesPage() {
                     <p className="text-sm text-secondary leading-relaxed">
                       Specialized recovery for stranded heavy machinery and oversized commercial vehicles across North Indian highways. 24/7 emergency response.
                     </p>
-                    <a className="text-primary font-black uppercase text-xs tracking-widest inline-flex items-center gap-1 hover:underline" href="tel:+919876543210">
+                    <a className="text-primary font-black uppercase text-xs tracking-widest inline-flex items-center gap-1 hover:underline" href="">
                       Emergency Line →
                     </a>
                   </div>
