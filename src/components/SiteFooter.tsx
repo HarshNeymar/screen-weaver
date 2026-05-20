@@ -33,7 +33,6 @@ export function SiteFooter() {
           <ul className="space-y-4 text-xs font-bold tracking-wider text-stone-500">
             <li><Link to="/services" className="hover:text-white transition-colors">Hydra Crane Rental</Link></li>
             <li><Link to="/services" className="hover:text-white transition-colors">Farana Fleet Support</Link></li>
-            <li><Link to="/services" className="hover:text-white transition-colors">24/7 Car Towing</Link></li>
             <li><Link to="/services" className="hover:text-white transition-colors">Industrial Recovery</Link></li>
           </ul>
         </div>
