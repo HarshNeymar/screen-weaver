@@ -17,7 +17,6 @@ const services = [
   { icon: "precision_manufacturing", title: "Hydra Crane Rental", body: "Optimized for tight manufacturing floors and factory installations across IMT Manesar.", bullets: ["14T - 40T Options", "Pick & Carry Precision"] },
   { icon: "settings_input_component", title: "Farana Fleet", body: "Articulating cranes for structural assembly and bridge construction in Gurugram.", bullets: ["High Stability Gear", "20T - 25T Specialists"] },
   { icon: "car_repair", title: "Heavy Recovery", body: "Specialized recovery for trucks, machinery, and heavy equipment across NH-48.", bullets: ["24/7 Roadside Assist", "Under-lift Systems"] },
-  { icon: "local_shipping", title: "Car Towing", body: "Flatbed and hydraulic towing for premium vehicles and breakdown assistance.", bullets: ["Flatbed Tow Trucks", "Zero Damage Towing"] },
 ];
 
 function HomePage() {
@@ -84,7 +83,6 @@ function HomePage() {
                         <option>Hydra Crane</option>
                         <option>Farana Fleet</option>
                         <option>Heavy Recovery</option>
-                        <option>Car Towing</option>
                       </select>
                     </div>
                     <div className="space-y-1.5">
