@@ -157,7 +157,7 @@ function ContactPage() {
                     <p className="text-xs uppercase font-bold text-outline-variant tracking-widest ml-1">24/7 Emergency Hotline</p>
                     <a
                       className="flex items-center justify-between w-full bg-primary p-4 rounded-xl hover:bg-primary/90 transition-all group"
-                      href=""
+                      href="tel:+919717459360"
                     >
                       <div className="flex items-center gap-3">
                         <Icon name="call" className="text-on-primary" />
@@ -170,7 +170,7 @@ function ContactPage() {
                     <p className="text-xs uppercase font-bold text-outline-variant tracking-widest ml-1">Logistics Desk</p>
                     <a
                       className="flex items-center justify-between w-full bg-surface/10 border border-surface/20 p-4 rounded-xl hover:bg-surface/20 transition-all group"
-                      href=""
+                       href="tel:+911244900888"
                     >
                       <div className="flex items-center gap-3">
                         <Icon name="local_shipping" className="text-primary-fixed-dim" />

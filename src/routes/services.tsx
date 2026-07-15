@@ -165,7 +165,7 @@ function ServicesPage() {
                     <p className="text-sm text-secondary leading-relaxed">
                       Specialized recovery for stranded heavy machinery and oversized commercial vehicles across North Indian highways. 24/7 emergency response.
                     </p>
-                    <a className="text-primary font-black uppercase text-xs tracking-widest inline-flex items-center gap-1 hover:underline" href="">
+                    <a className="text-primary font-black uppercase text-xs tracking-widest inline-flex items-center gap-1 hover:underline" href="tel:+919717459360">
                       Emergency Line →
                     </a>
                   </div>
@@ -177,7 +177,7 @@ function ServicesPage() {
                     <p className="text-sm text-secondary leading-relaxed">
                       Integrated site preparation solutions. Our earthmoving fleet complements our lifting services for seamless site mobilization.
                     </p>
-                    <a className="text-primary font-black uppercase text-xs tracking-widest inline-flex items-center gap-1 hover:underline" href="#">
+                    <a className="text-primary font-black uppercase text-xs tracking-widest inline-flex items-center gap-1 hover:underline" href="/contact">
                       Rent Earthmovers →
                     </a>
                   </div>

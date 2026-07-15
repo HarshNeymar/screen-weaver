@@ -10,14 +10,25 @@ export function SiteFooter() {
           <p className="text-stone-500 text-sm leading-relaxed mb-8 font-medium">
             NCR's premium industrial lifting authority. Engineering precision from IMT Manesar to the heart of Delhi.
           </p>
-          <div className="flex gap-4">
-            <a className="w-10 h-10 rounded bg-stone-900 flex items-center justify-center hover:bg-primary transition-colors border border-white/5" href="#">
-              <Icon name="share" className="text-lg" />
-            </a>
-            <a className="w-10 h-10 rounded bg-stone-900 flex items-center justify-center hover:bg-primary transition-colors border border-white/5" href="#">
-              <Icon name="alternate_email" className="text-lg" />
-            </a>
-          </div>
+         <div className="flex gap-4">
+  <a
+    className="w-10 h-10 rounded bg-stone-900 flex items-center justify-center hover:bg-primary transition-colors border border-white/5"
+    href="https://wa.me/919717459360"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact Chawla Cranes on WhatsApp"
+  >
+    <Icon name="share" className="text-lg" />
+  </a>
+
+  <a
+    className="w-10 h-10 rounded bg-stone-900 flex items-center justify-center hover:bg-primary transition-colors border border-white/5"
+    href="mailto:manesar@chawlacranes.com"
+    aria-label="Email Chawla Cranes"
+  >
+    <Icon name="alternate_email" className="text-lg" />
+  </a>
+</div>
         </div>
         <div>
           <h6 className="text-[10px] font-black uppercase tracking-[0.3em] text-primary-fixed-dim mb-8">Service Regions</h6>

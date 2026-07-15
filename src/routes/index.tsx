@@ -30,7 +30,7 @@ function HomePage() {
           24/7 NCR Recovery Live
         </div>
         <a
-          href=""
+          href="tel:+919717459360"
           className="bg-primary-container text-on-primary-container w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform pointer-events-auto"
         >
           <Icon name="emergency_home" className="text-3xl" filled />
@@ -277,7 +277,7 @@ function HomePage() {
                     <p className="text-white font-black text-lg">Need Immediate Assistance?</p>
                     <p className="text-stone-400 text-xs">Our Gurugram center is active now.</p>
                   </div>
-                  <a href="" className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                  <a href="tel:+919717459360" className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                     <Icon name="call" className="text-white" />
                   </a>
                 </div>
@@ -302,7 +302,7 @@ function HomePage() {
                 </p>
               </div>
               <a
-                href=""
+                href="tel:+919717459360"
                 className="bg-on-primary-container text-primary-container px-8 py-4 rounded-xl font-black uppercase tracking-widest text-sm flex items-center justify-center gap-3 shadow-xl hover:scale-105 transition-transform relative z-10"
               >
                 <Icon name="phone_in_talk" filled />
