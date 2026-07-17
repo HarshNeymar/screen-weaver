@@ -7,9 +7,16 @@ export function SiteFooter() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto px-6">
         <div>
           <div className="text-2xl font-black text-white uppercase tracking-tighter mb-8">Chawla Cranes</div>
-          <p className="text-stone-500 text-sm leading-relaxed mb-8 font-medium">
-            NCR's premium industrial lifting authority. Engineering precision from IMT Manesar to the heart of Delhi.
-          </p>
+          <div className="mb-8 space-y-3">
+  <p className="text-stone-500 text-sm leading-relaxed font-medium">
+    NCR&apos;s premium industrial lifting authority. Engineering precision
+    from IMT Manesar to the heart of Delhi.
+  </p>
+
+  <p className="text-stone-400 text-sm leading-relaxed font-semibold">
+    Chawla Cranes is a unit of Chawla Crane &amp; Heavy Labour Contractor.
+  </p>
+</div>
          <div className="flex gap-4">
   <a
     className="w-10 h-10 rounded bg-stone-900 flex items-center justify-center hover:bg-primary transition-colors border border-white/5"
@@ -67,7 +74,7 @@ export function SiteFooter() {
       </div>
       <div className="max-w-7xl mx-auto px-6 mt-20 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-[10px] font-bold uppercase tracking-widest text-stone-600">
-          © 2024 Chawla Cranes. Gurugram Industrial Hub Authority.
+          © 2024 Chawla Crane & Heavy Labour Contractor. Gurugram Industrial Hub Authority.
         </p>
         <div className="flex gap-8">
           <span className="text-[10px] font-black uppercase tracking-widest text-primary-fixed-dim">ISO 9001 CERTIFIED</span>

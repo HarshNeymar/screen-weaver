@@ -67,10 +67,24 @@ function AboutPage() {
               <h2 className="text-5xl font-bold tracking-tight text-on-background mb-8 leading-tight">
                 From Ground Zero to <span className="text-outline">Skyline Leaders.</span>
               </h2>
-              <div className="space-y-6 text-secondary text-lg">
-                <p>Founded in 2009, Chawla Cranes began with a single mobile crane and a vision to redefine heavy lifting in the regional market. What started as a local rental service quickly evolved into a strategic engineering partner for the nation's most complex infrastructure projects.</p>
-                <p>Over the last decade, we have expanded our fleet ten-fold, incorporating state-of-the-art crawler and tower cranes that allow us to reach heights and capacities once thought impossible.</p>
-              </div>
+             <div className="space-y-6 text-secondary text-lg">
+  <p className="rounded-lg border-l-4 border-primary bg-primary/5 px-5 py-4 font-semibold text-on-surface">
+    Chawla Cranes is a unit of Chawla Crane &amp; Heavy Labour Contractor.
+  </p>
+
+  <p>
+    Founded in 2009, Chawla Cranes began with a single mobile crane and a
+    vision to redefine heavy lifting in the regional market. What started as a
+    local rental service quickly evolved into a strategic engineering partner
+    for the nation&apos;s most complex infrastructure projects.
+  </p>
+
+  <p>
+    Over the last decade, we have expanded our fleet ten-fold, incorporating
+    state-of-the-art crawler and tower cranes that allow us to reach heights
+    and capacities once thought impossible.
+  </p>
+</div>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
