@@ -76,10 +76,26 @@ export function SiteFooter() {
         <p className="text-[10px] font-bold uppercase tracking-widest text-stone-600">
           © 2024 Chawla Crane & Heavy Labour Contractor. Gurugram Industrial Hub Authority.
         </p>
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-semibold text-stone-500">
+  <Link
+    to="/privacy-policy"
+    className="transition-colors hover:text-primary-container"
+  >
+    Privacy Policy
+  </Link>
+
+  <Link
+    to="/terms-and-conditions"
+    className="transition-colors hover:text-primary-container"
+  >
+    Terms &amp; Conditions
+  </Link>
+</div>
         <div className="flex gap-8">
           <span className="text-[10px] font-black uppercase tracking-widest text-primary-fixed-dim">ISO 9001 CERTIFIED</span>
           <span className="text-[10px] font-black uppercase tracking-widest text-primary-fixed-dim">NSIC REGISTERED</span>
         </div>
+        
       </div>
     </footer>
   );

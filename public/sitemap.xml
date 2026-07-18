@@ -24,4 +24,13 @@
     <loc>https://www.craneservicesgurugram.com/contact</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+  <loc>https://www.craneservicesgurugram.com/privacy-policy</loc>
+  <changefreq>yearly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.craneservicesgurugram.com/terms-and-conditions</loc>
+  <changefreq>yearly</changefreq>
+</url>
 </urlset>
