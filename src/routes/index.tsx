@@ -30,11 +30,17 @@ function HomePage() {
           24/7 NCR Recovery Live
         </div>
         <a
-          href="tel:+919717459360"
-          className="bg-primary-container text-on-primary-container w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform pointer-events-auto"
-        >
-          <Icon name="emergency_home" className="text-3xl" filled />
-        </a>
+  href="tel:+919717459360"
+  aria-label="Call Chawla Cranes emergency recovery hotline"
+  title="Call emergency recovery hotline"
+  className="bg-primary-container text-on-primary-container w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-transform pointer-events-auto"
+>
+  <Icon name="emergency_home" className="text-3xl" filled />
+
+  <span className="sr-only">
+    Call Chawla Cranes emergency recovery hotline
+  </span>
+</a>
       </div>
 
       <main>
@@ -78,22 +84,52 @@ function HomePage() {
                 <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-1.5">
-                      <label className="text-[10px] font-black uppercase text-stone-400 tracking-widest">Service Type</label>
-                      <select className="w-full bg-stone-900/50 border border-stone-700 text-white text-sm rounded-lg px-3 py-3 outline-none focus:ring-2 focus:ring-primary">
-                        <option value="hydra-crane">Hydra Crane</option>
-        <option value="farana-fleet">Farana Fleet</option>
-        <option value="heavy-recovery">Heavy Recovery</option>
-                      </select>
-                    </div>
+  <label
+    id="lift-service-type-label"
+    htmlFor="lift-service-type"
+    className="text-[10px] font-black uppercase text-stone-400 tracking-widest"
+  >
+    Service Type
+  </label>
+
+  <select
+    id="lift-service-type"
+    name="serviceType"
+    aria-labelledby="lift-service-type-label"
+    aria-required="true"
+    required
+    defaultValue="hydra-crane"
+    className="w-full bg-stone-900/50 border border-stone-700 text-white text-sm rounded-lg px-3 py-3 outline-none focus:ring-2 focus:ring-primary"
+  >
+    <option value="hydra-crane">Hydra Crane</option>
+    <option value="farana-fleet">Farana Fleet</option>
+    <option value="heavy-recovery">Heavy Recovery</option>
+  </select>
+</div>
                     <div className="space-y-1.5">
-                      <label className="text-[10px] font-black uppercase text-stone-400 tracking-widest">Location</label>
-                      <select className="w-full bg-stone-900/50 border border-stone-700 text-white text-sm rounded-lg px-3 py-3 outline-none focus:ring-2 focus:ring-primary">
-                        <option value="imt-manesar">IMT Manesar</option>
-        <option value="gurugram">Gurugram</option>
-        <option value="delhi-ncr">Delhi NCR</option>
-        <option value="rewari-bawal">Rewari/Bawal</option>
-                      </select>
-                    </div>
+  <label
+    id="lift-location-label"
+    htmlFor="lift-location"
+    className="text-[10px] font-black uppercase text-stone-400 tracking-widest"
+  >
+    Location
+  </label>
+
+  <select
+    id="lift-location"
+    name="location"
+    aria-labelledby="lift-location-label"
+    aria-required="true"
+    required
+    defaultValue="imt-manesar"
+    className="w-full bg-stone-900/50 border border-stone-700 text-white text-sm rounded-lg px-3 py-3 outline-none focus:ring-2 focus:ring-primary"
+  >
+    <option value="imt-manesar">IMT Manesar</option>
+    <option value="gurugram">Gurugram</option>
+    <option value="delhi-ncr">Delhi NCR</option>
+    <option value="rewari-bawal">Rewari/Bawal</option>
+  </select>
+</div>
                   </div>
                   <div className="space-y-1.5">
                     <label className="text-[10px] font-black uppercase text-stone-400 tracking-widest">Mobile Number</label>
@@ -277,9 +313,18 @@ function HomePage() {
                     <p className="text-white font-black text-lg">Need Immediate Assistance?</p>
                     <p className="text-stone-400 text-xs">Our Gurugram center is active now.</p>
                   </div>
-                  <a href="tel:+919717459360" className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                    <Icon name="call" className="text-white" />
-                  </a>
+                 <a
+  href="tel:+919717459360"
+  aria-label="Call Chawla Cranes for immediate assistance"
+  title="Call for immediate assistance"
+  className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"
+>
+  <Icon name="call" className="text-white" />
+
+  <span className="sr-only">
+    Call Chawla Cranes for immediate assistance
+  </span>
+</a>
                 </div>
               </div>
             </div>
