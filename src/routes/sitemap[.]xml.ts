@@ -7,12 +7,17 @@ export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
       GET: async () => {
-        const paths = ["/", "/services", "/locations", "/about", "/contact"];
+        const paths = [
+          "/",
+          "/services",
+          "/locations",
+          "/about",
+          "/contact",
+          "/privacy-policy",
+          "/terms-and-conditions",
+        ];
         const urls = paths
-          .map(
-            (p) =>
-              `  <url><loc>${BASE_URL}${p}</loc><changefreq>weekly</changefreq></url>`,
-          )
+          .map((p) => `  <url><loc>${BASE_URL}${p}</loc><changefreq>weekly</changefreq></url>`)
           .join("\n");
         const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>`;
         return new Response(xml, {
