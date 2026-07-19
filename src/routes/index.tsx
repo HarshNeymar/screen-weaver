@@ -80,18 +80,18 @@ function HomePage() {
                     <div className="space-y-1.5">
                       <label className="text-[10px] font-black uppercase text-stone-400 tracking-widest">Service Type</label>
                       <select className="w-full bg-stone-900/50 border border-stone-700 text-white text-sm rounded-lg px-3 py-3 outline-none focus:ring-2 focus:ring-primary">
-                        <option>Hydra Crane</option>
-                        <option>Farana Fleet</option>
-                        <option>Heavy Recovery</option>
+                        <option value="hydra-crane">Hydra Crane</option>
+        <option value="farana-fleet">Farana Fleet</option>
+        <option value="heavy-recovery">Heavy Recovery</option>
                       </select>
                     </div>
                     <div className="space-y-1.5">
                       <label className="text-[10px] font-black uppercase text-stone-400 tracking-widest">Location</label>
                       <select className="w-full bg-stone-900/50 border border-stone-700 text-white text-sm rounded-lg px-3 py-3 outline-none focus:ring-2 focus:ring-primary">
-                        <option>IMT Manesar</option>
-                        <option>Gurugram</option>
-                        <option>Delhi NCR</option>
-                        <option>Rewari/Bawal</option>
+                        <option value="imt-manesar">IMT Manesar</option>
+        <option value="gurugram">Gurugram</option>
+        <option value="delhi-ncr">Delhi NCR</option>
+        <option value="rewari-bawal">Rewari/Bawal</option>
                       </select>
                     </div>
                   </div>

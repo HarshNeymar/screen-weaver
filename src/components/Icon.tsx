@@ -5,8 +5,12 @@ export function Icon({ name, className = "", filled = false, style }: IconProps)
     ? { fontVariationSettings: "'FILL' 1", ...(style || {}) }
     : style;
   return (
-    <span className={`material-symbols-outlined ${className}`} style={combinedStyle}>
-      {name}
-    </span>
+    <span
+  aria-hidden="true"
+  className={`material-symbols-outlined ${className}`}
+  style={combinedStyle}
+>
+  {name}
+</span>
   );
 }

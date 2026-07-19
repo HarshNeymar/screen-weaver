@@ -204,16 +204,30 @@ function ServicesPage() {
                       </div>
                     ))}
                   </div>
-                  <form className="space-y-4 relative z-10" onSubmit={(e) => e.preventDefault()}>
-                    <input
-                      type="text"
-                      placeholder="Site Location"
-                      className="w-full bg-white/5 border border-white/10 rounded p-4 text-white focus:ring-1 focus:ring-primary-container focus:border-transparent transition-all outline-none text-sm"
-                    />
-                    <button className="w-full bg-primary-container text-on-primary-container font-black uppercase tracking-widest py-4 rounded hover:bg-inverse-primary transition-colors flex items-center justify-center gap-2">
-                      Check Fleet Status <Icon name="bolt" />
-                    </button>
-                  </form>
+                  <form
+  className="space-y-4 relative z-10"
+  onSubmit={(e) => e.preventDefault()}
+>
+  <label htmlFor="fleet-site-location" className="sr-only">
+    Site Location
+  </label>
+
+  <input
+    id="fleet-site-location"
+    name="siteLocation"
+    type="text"
+    autoComplete="street-address"
+    placeholder="Site Location"
+    className="w-full bg-white/5 border border-white/10 rounded p-4 text-white focus:ring-1 focus:ring-primary-container focus:border-transparent transition-all outline-none text-sm"
+  />
+
+  <button
+    type="submit"
+    className="w-full bg-primary-container text-on-primary-container font-black uppercase tracking-widest py-4 rounded hover:bg-inverse-primary transition-colors flex items-center justify-center gap-2"
+  >
+    Check Fleet Status <Icon name="bolt" />
+  </button>
+</form>
                 </div>
 
                 <div className="bg-white border border-outline-variant/30 p-8 rounded-xl space-y-6">
